@@ -2,7 +2,7 @@ class Superhero
 
   @@superheroes = []
 
-  attr_accessor :name, :motto
+  attr_accessor :name, :power, :biography
 
   def intialize(args)
     args.each do |key, value|
@@ -14,7 +14,7 @@ class Superhero
   def self.all
     @@superheroes
   end
-  
+
 
 
 end

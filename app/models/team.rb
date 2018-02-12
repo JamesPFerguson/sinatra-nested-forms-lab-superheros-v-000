@@ -14,6 +14,4 @@ class Team
     @@teams
   end
 
-
-
 end
